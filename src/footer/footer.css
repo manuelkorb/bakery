@@ -1,0 +1,54 @@
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.social-media-h4 {
+  font-size: 15px;
+  border-bottom: 2px solid rgb(134, 6, 6);
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+.address-h4 {
+  font-size: 15px;
+  border-bottom: 2px solid rgb(134, 6, 6);
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+.opening-hours-h4 {
+  font-size: 15px;
+  border-bottom: 2px solid rgb(134, 6, 6);
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  .footer-content {
+    gap: 3px;
+    height: 30vw;
+  }
+
+  .social-media-h4 {
+    font-size: 12px;
+
+    padding-top: 20px;
+  }
+
+  .address-h4 {
+    font-size: 12px;
+  }
+
+  .opening-hours-h4 {
+    font-size: 12px;
+  }
+  .footer-paragraph {
+    font-size: 9px;
+  }
+}

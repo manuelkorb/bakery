@@ -1,0 +1,118 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  background-image: url("assets/about.jpg");
+  background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del elemento */
+  background-position: center; /* Centra la imagen en el elemento */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  margin-top: 10px;
+}
+
+.about-h1 {
+  font-size: 60px;
+  color: rgb(134, 6, 6);
+  font-weight: 800;
+  font-family: "DM Serif Display, serif";
+}
+
+.about-p {
+  text-align: center;
+  color: black;
+  width: 50%;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.inaguration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.inaguration-img {
+  width: 250px;
+  height: 250px;
+}
+
+.inaguration-text {
+  width: 20%;
+}
+
+.inaguration-text-h2 {
+  color: rgb(134, 6, 6);
+  font-size: 16px;
+}
+
+.inaguration-text-p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  text-align: justify;
+}
+
+.chefs {
+  margin: 0;
+}
+
+.title-cheflist {
+  margin-bottom: 35px;
+  font-family: "DM Serif Display, Lobster Two, sans-serif";
+  font-weight: 500;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .about {
+    height: 70vw;
+    margin-bottom: 0px;
+  }
+
+  .about-h1 {
+    font-size: 30px;
+  }
+  .about-p {
+    font-size: 14px;
+    width: 80vw;
+    font-weight: 400;
+  }
+  .inaguration {
+    width: 100vw;
+    height: 70vw;
+    margin-top: 0px;
+  }
+
+  .inaguration-img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .inaguration-text {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .inaguration-text-h2 {
+    font-size: 12px;
+  }
+
+  .inaguration-text-p {
+    font-size: 14px;
+  }
+  .chefs {
+    margin: 0px 0px;
+    height: 60vw;
+    width: 100vw;
+  }
+
+  .title-cheflist {
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+}
